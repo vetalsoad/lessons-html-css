@@ -1,0 +1,19 @@
+[alt="Pollution"] {
+    border: 5px dashed red;
+}
+
+[src$=".jpg"] {
+    margin-left: 50px;
+}
+
+article [data-description~="even"] {
+    background-color: grey;
+}
+
+article [data-description*="even"] {
+    font-size: 444 px;
+}
+
+section [src^="https://"] {
+    color: green;
+}
