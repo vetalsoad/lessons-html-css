@@ -6,7 +6,7 @@ label {
     text-transform: uppercase;
 }
 
-#special {
+#special::first-letter {
     color: green;
     font-size: 100px;
 }
