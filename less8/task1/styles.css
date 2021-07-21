@@ -2,10 +2,6 @@ body {
     background-color: antiquewhite;
 }
 
-div {
-    box-sizing: border-box;
-}
-
 .rectangle {
     border: 8px solid;
     padding: 16px;
@@ -16,6 +12,7 @@ div {
 
 .rectangle1 {
     background-color: aquamarine;
+    box-sizing: border-box;
 }
 
 .rectangle2 {
