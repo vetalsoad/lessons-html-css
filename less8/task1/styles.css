@@ -12,9 +12,10 @@ body {
 
 .rectangle1 {
     background-color: aquamarine;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .rectangle2 {
     background-color: azure;
+    box-sizing: border-box;
 }
