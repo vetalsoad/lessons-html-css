@@ -1,3 +1,7 @@
+* {
+    box-sizing: content-box;
+}
+
 .rectangle {
     margin: 50px;
     border: 2px solid black;
