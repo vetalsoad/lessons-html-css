@@ -15,7 +15,6 @@
     
     p {
         line-height: 28px;
-        margin: 0;
     }
     
     b {
@@ -31,5 +30,5 @@
     }
     
     em {
-        color: gray;
+        color: grey;
     }
