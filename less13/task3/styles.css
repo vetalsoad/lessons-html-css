@@ -1,0 +1,11 @@
+.header-text {
+    padding: 16px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 96px;
+    background: -webkit-linear-gradient(45deg, #feccb1 0%, #f17432 34%, #ea5507 61%, #fb955e 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
