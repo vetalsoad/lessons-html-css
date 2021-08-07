@@ -35,6 +35,7 @@
 
 .form-label {
     margin-bottom: 4px;
+    display: block;
 }
 
 .form-input {
