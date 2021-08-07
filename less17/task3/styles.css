@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin: 16px;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.black>td:nth-child(odd) {
+    background-color: black;
+}
+
+.white>td:nth-child(even) {
+    background-color: black;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+.noborder>td,
+.noborder {
+    border: 0;
+}
