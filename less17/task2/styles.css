@@ -14,7 +14,7 @@ td,
 th {
     padding: 4px;
     text-align: right;
-    height: 40px;
+    line-height: 40px;
 }
 
 div {
@@ -32,9 +32,12 @@ tbody>tr:hover {
 
 thead {
     background-color: aqua;
-    font-weight: 700;
 }
 
 caption {
     margin-bottom: 8px;
+}
+
+tfoot {
+    font-weight: 700;
 }
