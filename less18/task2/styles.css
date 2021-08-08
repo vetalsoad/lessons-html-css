@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.button {
+.custom-button {
     width: 200px;
     height: 50px;
     margin: 64px;
@@ -19,17 +19,17 @@
     outline: none;
 }
 
-.button:hover {
-    color: darkcyan;
-}
-
-.button:hover>.bird-svg {
-    fill: green;
-}
-
-.bird-svg {
+.bird-icon {
     width: 32px;
     height: 32px;
     fill: white;
     vertical-align: middle;
+}
+
+.custom-button:hover {
+    color: darkcyan;
+}
+
+.custom-button:hover>.bird-icon {
+    fill: green;
 }
