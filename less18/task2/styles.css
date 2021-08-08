@@ -17,6 +17,7 @@
     cursor: pointer;
     line-height: 50px;
     text-align: center;
+    outline: none;
 }
 
 .button:hover {
