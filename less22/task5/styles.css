@@ -126,6 +126,6 @@
             min-width: 80%;
         }
         .news {
-            min-width: 20%;
+            flex-grow: 1;
         }
     }
