@@ -24,9 +24,9 @@ body {
     @include for-very-large {
         background-color: #c47;
     }
-    /*  @include orientation-screen {
-        display: block;
-    } */
+    @include orientation-screen {
+        margin: 8px;
+    }
 }
 
 .container {

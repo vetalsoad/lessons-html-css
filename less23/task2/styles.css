@@ -14,9 +14,6 @@ body {
   min-height: 100px;
   margin: 16px;
   background-color: #ff7f50;
-  /*  @include orientation-screen {
-      display: block;
-  } */
 }
 @media screen and (min-width: 600px) {
   .square {
@@ -31,6 +28,11 @@ body {
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+  }
+}
+@media screen and (orientation: landscape) {
+  .square {
+    margin: 8px;
   }
 }
 
