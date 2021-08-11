@@ -49,13 +49,13 @@ button {
     text-overflow: ellipsis;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .header {
         display: none;
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .main {
         display: none;
     }
