@@ -11,13 +11,14 @@ html {
     height: 3em;
     padding: 0 1em;
     background-color: #eee;
+    display: flex;
 }
 
 button {
     display: inline;
     padding: 0;
     border: 0;
-    background-color: transparent;
+    outline: none;
     cursor: pointer;
     vertical-align: middle;
 }
@@ -36,13 +37,14 @@ button {
 }
 
 .nav-list-item {
+    display: flex;
     background-color: #808080;
-    color: white;
     height: 2em;
     margin-top: 0.5em;
 }
 
 .nav-list-link {
+    color: white;
     text-decoration: none;
     overflow: hidden;
     white-space: nowrap;
