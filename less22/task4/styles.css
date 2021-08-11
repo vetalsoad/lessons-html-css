@@ -15,12 +15,11 @@ html {
 }
 
 button {
-    display: inline;
     padding: 0;
-    border: 0;
+    border: none;
     outline: none;
     cursor: pointer;
-    vertical-align: middle;
+    background: none;
 }
 
 .fa-bars {
@@ -37,11 +36,10 @@ ul,
 li {
     padding: 0;
     margin: 0;
-    list-style-type: none;
+    list-style: none;
 }
 
 .nav-list-item {
-    /*  display: flex; */
     background-color: #808080;
     height: 2em;
     margin-top: 0.5em;
@@ -49,13 +47,12 @@ li {
 
 .nav-list-link {
     display: block;
-    line-height: 2em;
     color: white;
     text-decoration: none;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-left: 0.5em;
+    padding: 0.5em;
 }
 
 @media screen and (min-width: 600px) {
