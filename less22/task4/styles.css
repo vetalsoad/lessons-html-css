@@ -40,13 +40,14 @@ li {
 }
 
 .nav-list-item {
-    display: flex;
+    /*  display: flex; */
     background-color: #808080;
     height: 2em;
     margin-top: 0.5em;
 }
 
 .nav-list-link {
+    display: block;
     line-height: 2em;
     color: white;
     text-decoration: none;
