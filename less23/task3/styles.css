@@ -1,18 +1,60 @@
-/* Error: Expected identifier.
- *    ,
- * 37 |             &hover:{
- *    |                    ^
- *    '
- *   styles\header.scss 37:20  @import
- *   styles\index.scss 1:8     root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a    \2577 \a 37 \2502              &hover:{\d\a    \2502                     ^\a    \2575 \a   styles\\header.scss 37:20  @import\a   styles\\index.scss 1:8     root stylesheet";
+.header {
+  height: 3em;
+  background-color: #006400;
+  color: #fff;
 }
+
+.menu {
+  display: flex;
+  text-align: center;
+  line-height: 3em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  margin-left: 3em;
+  text-transform: uppercase;
+}
+.menu__item {
+  padding: 0 8px;
+}
+.menu__item:hover {
+  background-color: #9acd32;
+}
+.menu__item_active {
+  color: yellow;
+  position: relative;
+}
+.menu__item_active:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  background-color: #ff7f50;
+  min-width: 120px;
+  z-index: 1;
+}
+.submenu__item {
+  padding: 0 8px;
+}
+.submenu__item:hover {
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
