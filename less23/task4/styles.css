@@ -1,0 +1,49 @@
+/* @include for-medium-up {
+    background-color: #8a2be2;
+} */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: lowercase;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  flex-grow: 1;
+}
+.block__one {
+  background-color: #ff7f50;
+}
+.block__two {
+  background-color: #006400;
+}
+.block__three {
+  background-color: #0ff;
+}
+.block__item {
+  background-color: #faebd7;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-grow: 2;
+    /* flex-direction: column; */
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
