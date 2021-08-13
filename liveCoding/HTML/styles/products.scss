@@ -1,0 +1,25 @@
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .product {
+        display: flex;
+        flex-direction: column;
+        flex: 0 20%;
+        &__img img {
+            width: 100%;
+            padding: 30px 10px;
+        }
+    }
+    /* &__name {
+        font-weight: 700;
+        color: #030303;
+        white-space: normal;
+        margin: 0px;
+    }
+    
+    &__price {
+        margin: 5px 0px 0px 0px;
+        font-size: 0.875em;
+    } */

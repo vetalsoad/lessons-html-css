@@ -1,0 +1,32 @@
+.navigation {
+    display: flex;
+    margin-bottom: 30px;
+    &__title {
+        flex-grow: 1;
+        font-size: 36px;
+        letter-spacing: 3.6px;
+    }
+    &__search {
+        display: flex;
+    }
+    &__filter,
+    &__sort {
+        display: flex;
+        flex-direction: column;
+    }
+    &__label {
+        font-size: 0.75em;
+        font-weight: 700;
+        color: #666;
+        text-transform: uppercase;
+    }
+    &__select {
+        width: 100px;
+        color: #333;
+        font-weight: 600;
+        border: 0;
+        background-color: #f7f7f7;
+        margin-top: 10px;
+        margin-left: -5px;
+    }
+}
